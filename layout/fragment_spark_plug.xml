@@ -50,6 +50,16 @@
                 android:layout_height="50dp"
                 android:drawableEnd="@color/black" />
 
+            <TextView
+                android:layout_width="284dp"
+                android:layout_height="73dp"
+                android:drawableEnd="@color/black"
+                android:gravity="center"
+                android:text="SPARK PLUG TIMER"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -58,6 +68,11 @@
                 android:orientation="horizontal">
 
                 <TextView
+                    android:text="00"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:gravity="center"
                     android:id="@+id/hour"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
@@ -77,6 +92,11 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    android:text="00"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:gravity="center"
                     android:id="@+id/min"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
@@ -96,6 +116,11 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    android:text="00"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:gravity="center"
                     android:id="@+id/second"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
